@@ -1,0 +1,490 @@
+.fira-sans {
+    font-family: "Fira Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    background-color: rgba(241, 241, 243, 1);
+}
+
+.header {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.main {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-title {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.navbar-btn {
+    width: 116px;
+    height: 52px;
+    border: 1px solid rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    color: rgba(0, 106, 80, 1);
+    font-size: 18px;
+    font-weight: 900;
+}
+
+/* Hero section */
+.hero {
+    background-color: rgba(198, 228, 214, 1);
+    border: none;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 70px 55px;
+    margin-bottom: 80px;
+}
+
+.hero-container {
+    text-align: left;
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.hero-title {
+    margin-top: 16px;
+    font-size: 56px;
+    font-weight: bold;
+    width: 610px;
+
+}
+
+.btn-primary {
+    width: 280px;
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    border-radius: 8px;
+    padding: 15px 28px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Pillars section */
+.pillars {
+    margin-bottom: 80px;
+}
+
+.pillars-title {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.pillars-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.pillars-card {
+    padding: 20px;
+    text-align: left;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: white;
+}
+
+.pillar-card-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.pillars-card-des {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* vision of future */
+.vision-section {
+    margin-bottom: 32px;
+}
+
+.vision-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.vision-des {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+
+.vision-card {
+    text-align: left;
+    padding: 32px;
+    border-radius: 16px;
+    border: none;
+}
+
+.vision-card-1 {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.vision-card-2 {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.vision-card-3 {
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.vision-card-btn-1 {
+    width: 122px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16;
+    font-weight: 600;
+    color: white;
+    background-color: rgba(84, 144, 245, 1);
+}
+
+.vision-card-btn-2 {
+    width: 122px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16;
+    font-weight: 600;
+    color: white;
+    background-color: rgba(9, 161, 92, 1);
+}
+
+.vision-card-btn-3 {
+    width: 122px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16;
+    font-weight: 600;
+    color: white;
+    background-color: rgba(255, 194, 57, 1);
+}
+
+/* opinion section */
+.opinion {
+    padding: 24px 48px;
+    background-color: white;
+    border-radius: 16px;
+    margin-bottom: 80px;
+}
+
+.opinion-div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.main-opinion {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.advisor {
+    margin-bottom: 4px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.designation {
+    margin-top: 0;
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Table */
+.table-cols {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.table {
+    background-color: white;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+table {
+    width: 100%;
+}
+
+.table-head {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+table,
+td {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-collapse: collapse;
+}
+
+.longer {
+    font-weight: 600;
+    font-size: 16px;
+    width: 90%;
+    padding-left: 24px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.select-option {
+    padding: 24px;
+}
+
+.select {
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 13px;
+    /* appearance: none; */
+    /* margin-right: 2px; */
+}
+
+.table-section {
+    margin-bottom: 80px;
+}
+
+/* Recent */
+.r {
+    margin-bottom: 80px;
+}
+
+.recent {
+    background-color: white;
+    padding: 48px;
+    border: none;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.satelite {
+    border-radius: 24px;
+}
+
+.recent-container {
+    text-align: left;
+}
+
+.recent-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.date-time {
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.recent-des {
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.recent-btn {
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    padding: 13px 26px;
+}
+
+.recent-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+/* Donate section */
+.donate-section {
+    text-align: center;
+}
+
+.donate-container {
+    text-align: center;
+    padding-left: 88px;
+    padding-right: 88px;
+}
+
+.donate-title {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.donate-description {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.donate-btn {
+    font-weight: 800;
+    font-size: 32px;
+    background-color: white;
+    padding: 30px 28px 30px 28px;
+    border: none;
+    border-radius: 16px;
+}
+
+.donate-btn-container {
+    padding-left: 82px;
+    padding-right: 82px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.input-container {
+    /* margin: 0 auto; */
+    text-align: center;
+    margin-top: 32px;
+}
+
+.donate-input {
+    /* margin: 0 auto; */
+    width: 860px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.green-btn {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.done-now-btn {
+    margin-top: 40px;
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
+
+
+/* Subscribe section */
+.subscribe-section {
+    margin-top: 80px;
+    background-color: rgba(198, 228, 214, 1);
+    border: none;
+    border-radius: 14px;
+    padding: 60px;
+    margin-bottom: 80px;
+}
+
+.subscribe {
+    margin: 0 auto;
+    width: 600px;
+}
+
+
+.subscribe-container {
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#email {
+    flex-grow: 1;
+    padding: 18px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+#email::placeholder {
+    color: #999;
+}
+
+.s-button {
+    background-color: #00704a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.subscribe-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+/* Footer */
+.footer{
+    background-color: white;
+}
+.footer-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+   text-align: center;
+    gap: 32px;
+}
+.social-container{
+    display: flex;
+    gap: 23px;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontal{
+    width: 70%;
+    margin-bottom: 20px;
+}
